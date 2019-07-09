@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
 
 
 html {
@@ -25,7 +26,7 @@ body {
 
 .sectionHeader__text {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Slabo 27px';
 }
 
 .article__date {
@@ -35,18 +36,18 @@ body {
 
 .paragraph, .article__paragraph, .paragraph__test--js {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Slabo 27px';
 }
 
 a:link {
-  color: yellowgreen;
-  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-family: 'Slabo 27px';
   text-decoration: none;
 }
 
 a:visited {
-  color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(109, 109, 2);
+  font-family: 'Slabo 27px';
   text-decoration: none;
 }
 
@@ -70,6 +71,7 @@ a:hover {
 
 &__mainPage{
   margin-right: 10px;
+ 
 }
   
   &__list{
@@ -77,6 +79,7 @@ a:hover {
   padding: 0;
   display: flex;
   justify-content: center;
+ 
     
   }
   
@@ -100,7 +103,7 @@ a:hover {
 
 .DiaryWeek__Description {
   color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Slabo 27px';
   display: flex;
   justify-content: center;
 }
