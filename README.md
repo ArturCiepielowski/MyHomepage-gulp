@@ -1,4 +1,4 @@
-![Homepage screenshot](src/assets/img/readMe.jpg)
+![Homepage screenshot](github/readMe.jpg)
 
 `npm install -g gulp-cli`
 
