@@ -1,4 +1,4 @@
-# wtf-gulp-starter
+![Homepage screenshot](src/assets/img/readMe.jpg)
 
 `npm install -g gulp-cli`
 
