@@ -1,4 +1,4 @@
-![Homepage screenshot](github/readMe.jpg)
+![Homepage screenshot](github/readMe.JPG)
 
 #MyHomepage-gulp
 
