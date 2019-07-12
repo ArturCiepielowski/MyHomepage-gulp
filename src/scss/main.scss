@@ -30,13 +30,13 @@ a:hover {
 
 
 .article__date {
-  color: rgb(126, 126, 189);;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
 
-  background-color:rgb(221, 219, 219);
+  background-color:white
   
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .DiaryWeek__Description {
-  color:rgb(126, 126, 189);
+  color:black;
   font-family: 'Slabo 27px';
   display: flex;
   justify-content: center;
@@ -61,10 +61,10 @@ body {
 }
 
 .headerMain__text {
-  color: rgb(186, 186, 243);
+  color: rgb(218, 218, 218);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .imageW1 {
@@ -77,7 +77,7 @@ body {
   top: 0px;
   left: 0px;
   box-sizing: border-box;
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: black;
 
   &__mainPage{
    margin-right: 10px;
@@ -105,14 +105,21 @@ body {
 }
 
 
+.sectionHeader{
+  border-top: 1px solid #000;
+
+
+}
+
 .sectionHeader__text {
-  color: rgb(126, 126, 189);
+  color: black;
   font-family: 'Slabo 27px';
+  
 }
 
 
 .paragraph, .article__paragraph, .paragraph__test--js {
-  color: rgb(126, 126, 189);
+  color:black;
   font-family: 'Slabo 27px';
 }
 
