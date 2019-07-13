@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -315,10 +316,56 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
+a:link {
+  color: red;
+  font-family: 'Slabo 27px';
+  text-decoration: none; }
+
+a:visited {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Slabo 27px';
+  text-decoration: none; }
+
+a:hover {
+  color: red; }
+
+.article__date {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+
 body {
   background-image: -webkit-linear-gradient(21.9deg, #3d72b4 5.8%, #525252 98.1%);
   background-image: -o-linear-gradient(21.9deg, #3d72b4 5.8%, #525252 98.1%);
   background-image: linear-gradient(68.1deg, #3d72b4 5.8%, #525252 98.1%); }
+
+.Diary__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 320px 320px;
+  grid-template-rows: 320px 320px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; }
+
+.DiaryWeek__Description {
+  color: yellow;
+  font-family: 'Slabo 27px';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.Diary__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .headerMain__text {
   color: white;
@@ -326,35 +373,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 60px; }
 
-.sectionHeader__text {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.article__date {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.paragraph, .article__paragraph, .paragraph__test--js {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif; }
-
-a:link {
-  color: yellowgreen;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none; }
-
-a:visited {
-  color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none; }
-
-a:hover {
-  color: red; }
-
-.webPage {
-  width: 100%;
-  max-width: 700px;
-  margin: 32px auto; }
+.imageW1 {
+  width: 50%; }
 
 .navigation {
   position: fixed;
@@ -381,36 +401,18 @@ a:hover {
     display: inline;
     padding: 5px; }
 
-.Diary__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 320px 320px;
-  grid-template-rows: 320px 320px;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px; }
+.sectionHeader__text {
+  color: white;
+  font-family: 'Slabo 27px'; }
 
-.DiaryWeek__Description {
-  color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.paragraph, .article__paragraph, .paragraph__test--js {
+  color: white;
+  font-family: 'Slabo 27px'; }
 
-.Diary__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.imageW1 {
-  width: 50%; }
+.webPage {
+  width: 100%;
+  max-width: 700px;
+  margin: 32px auto; }
 
 @media (min-width: 641px) {
   .navigation__switcher {
